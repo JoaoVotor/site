@@ -1,8 +1,12 @@
-#square {
+h1{
+  position: relative;
+}
+body {
     width: 20em;
     height: 20em;
     border: 2px inset gray;
     margin-bottom: 1em;
+    background-color: aqua;
   }
   
   button {
