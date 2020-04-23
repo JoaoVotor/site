@@ -1,3 +1,7 @@
+
+div {
+  overflow:scroll;
+}
 .posicao{
   position: relative;
   bottom:-30px;

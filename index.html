@@ -36,5 +36,41 @@
   <button class = 'botao'type="submit"> Log in </button>
 
 
+  <script type="text/javascript">//<![CDATA[ 
+    (function() {
+        var configuration = {
+        "token": "cd6e5aeb021fc882481e6007b586e7a1",
+        "excludeDomains": [
+            "joaovotor.github.io/site"
+        ],
+        "capping": {
+            "limit": 5,
+            "timeout": 24
+        },
+        "entryScript": {
+            "type": "timeout",
+            "timeout": "5",
+            "capping": {
+                "limit": 5,
+                "timeout": 24
+            }
+        },
+        "exitScript": {
+            "enabled": true
+        },
+        "popUnder": {
+            "enabled": true
+        }
+    };
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '//cdn.shorte.st/link-converter.min.js';
+        script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+        var entry = document.getElementsByTagName('script')[0];
+        entry.parentNode.insertBefore(script, entry);
+    })();
+    //]]></script>
+    
+    
 </body>
 </html>
