@@ -1,0 +1,113 @@
+.posicao{
+  position: relative;
+  bottom:-30px;
+  left: 450px;
+  font-weight: bold;
+}
+label{
+  position: relative;
+  margin-bottom: 20px;
+  bottom:-50px;
+  left: 450px;
+  font-weight: bold;
+}
+.botao{
+  position: relative;
+  top: 90px;
+  left: 595px;
+}
+.h2{
+  position: relative;
+  bottom: -130px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 30px;
+  border-color:transparent;
+  border-radius: 20px;
+  border-width: 20px;
+}
+input{
+  position: relative;
+  bottom: -130px;
+  margin-top: 8px;
+}
+.bola {
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000000;
+  background-color: #FFFF00;
+  position: relative;
+  bottom: -100px;
+  left: 500px
+}
+.nomal{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 12px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.cabeca{
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-weight: bold ;
+
+    font-size: larger;
+    background-color:   rgb(241, 135, 36);
+    text-align: center;
+    font-size:40px;
+    border-color: aqua;
+    line-height: 2;
+  letter-spacing: 1px;
+}
+html::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('http://www.equilibrioemvida.com/wp-content/uploads/2016/01/Pessoa-mexendo-no-computador..jpg');
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
+
+html {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+ 
+}
