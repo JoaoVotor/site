@@ -1,13 +1,21 @@
-
-div {
-  overflow:scroll;
+h1{
+  padding-top: 20px;
+  text-align: center;
+  background-size: auto;
+  background-color: wheat;
 }
-.posicao{
-  position: relative;
-  bottom:-30px;
-  left: 450px;
+#resultado{
+  text-align: center;
   font-weight: bold;
+  font-size: 30px;
+  height: 130px;
+  padding: 20px;
 }
+.divs{
+  text-align: center;
+  height: 210px;
+}
+
 label{
   position: relative;
   margin-bottom: 20px;
@@ -35,17 +43,6 @@ input{
   position: relative;
   bottom: -130px;
   margin-top: 8px;
-}
-.bola {
-  border-radius: 50%;
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-  border: 1px solid #000000;
-  background-color: #FFFF00;
-  position: relative;
-  bottom: -100px;
-  left: 500px
 }
 .nomal{
   font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +83,6 @@ li a:hover {
     text-align: center;
     font-size:40px;
     border-color: aqua;
-    line-height: 2;
   letter-spacing: 1px;
 }
 html::before {
