@@ -1,5 +1,19 @@
-h1{
-  padding-top: 20px;
+img{
+  image-orientation: initial;
+}
+ul{
+  font-size: 20px;
+  color: aliceblue;
+
+}
+.rolagem {
+  position: relative;
+  overflow:auto;
+  height:100%;
+
+}
+
+h2{
   text-align: center;
   background-size: auto;
   background-color: wheat;
